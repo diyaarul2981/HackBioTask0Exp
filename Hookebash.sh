@@ -4,7 +4,7 @@
 git clone https://github.com/RitojaR/TeamHooke
 
 #make the directory accessible
-Chmod +x TeamHooke
+chmod +x TeamHooke
 
 #Change the directory to TeamHooke from current
 cd TeamHooke
@@ -12,9 +12,20 @@ cd TeamHooke
 #create the header
 echo Name, Email, Slack_username, Biostack, Twitter_handle, Hamming_distance > teamCSV.csv
 
-#For Rscript
+#Rscript
 for Rscript in *.R
 do
         Rscript $Rscript >> teamCSV.csv
+done
+
+# python script
+for python3 in *.py
+do
+	python3 $python3 >> teamCSV.csv
+done
+
+for java in *.java
+do
+	java $java >>teamCSV.csv
 done
 
