@@ -13,6 +13,6 @@ if(check1 != check2){
 count<-count+1
 }#end of if
 }#end of for
-output<-data.frame(name,email,slack,biostack,twitter,count)
+output<-data.frame(name,",", email, ",",slack,",", biostack,",", twitter,",", count)
 cat(paste(output,collapse=','))
 #end
