@@ -8,7 +8,7 @@ public class Program
         System.out.println ("oluwabunmipra@gmail.com");
         System.out.println ("@Oluwabunmi");
         System.out.println ("Public Health and Genomic Epidemiology");
-        System.out.println ("FirstLady1")
+        System.out.println ("FirstLady1");
         for(x=0;x<slack.length();x++)
         {
             if(slack.charAt(x)!=twitter.charAt(x))
