@@ -6,4 +6,4 @@ def hamming_distance(Slack_id, Twitter_id):
     for i in range(L):
         if Slack_id[i] != Twitter_id[i]:
             distance += 1
-print("Solanki Jaykishan, solankijaykishan91@gmail.com, @Jay, Drug_Development, @Ja9, " , distance)
+            print("Solanki Jaykishan, solankijaykishan91@gmail.com, @Jay, Drug_Development, @Ja9, " , hamming_distance(Slack_id, Twitter_id))
