@@ -23,3 +23,4 @@ Hamming_Distance<- min(D)
 #Visualize the dataframe
 cat ("\n") 
 cat(paste(Name,Email,Slack_username,Biostack,Twitter_handle,Hamming_Distance,sep=", "))
+cat("\n")
