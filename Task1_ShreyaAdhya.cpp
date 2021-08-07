@@ -10,10 +10,6 @@ class hackbio // declaring class hackbio
 		void display(void); // to display the information
 };
 
-
-
-
- 
 // function to calculate Hamming distance
 int hammingDist(char *str1, char *str2)
 {
