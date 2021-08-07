@@ -10,11 +10,8 @@ class hackbio // declaring class hackbio
 		void display(void); // to display the information
 };
 
-//function to display the items
-void hackbio :: display (void)
-{
-    cout<<"Shreya Adhya, adhyatiti@gmail.com, @ShreyaAdhya, Data Science and Epigenomics, @ShreyaAdhya, "<<endl;
-}
+
+
 
  
 // function to calculate Hamming distance
@@ -36,11 +33,8 @@ int main()  //main class
     char str1[] = "@ShreyaAdhya"; //carries the slack username
     char str2[] = "@ShreyaAdhya"; //carries the Twitter username 
  
-    hackbio h; //creating an object inside the main class
     
-    // function call
-	h.display();
-	cout <<hammingDist (str1, str2)<<endl;
+	cout<<"Shreya Adhya, adhyatiti@gmail.com, @ShreyaAdhya, Data Science and Epigenomics, @ShreyaAdhya, " +hammingDist (str1, str2)<<endl;
    
     return 0;
 }
