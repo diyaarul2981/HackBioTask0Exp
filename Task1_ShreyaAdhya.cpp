@@ -40,7 +40,7 @@ int main()  //main class
     
     // function call
 	h.display();
-	cout <<"\n Hamming distance is "<<hammingDist (str1, str2)<<" bits."<<endl;
+	cout <<hammingDist (str1, str2)<<endl;
    
     return 0;
 }
