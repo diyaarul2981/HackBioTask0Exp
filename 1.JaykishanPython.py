@@ -2,7 +2,7 @@ Slack_id = "@Jay"
 Twitter_id = "@Jaykishansolan9"
 def hamming_distance(Slack_id, Twitter_id):
     distance=0
-    L = len(Twitter_id)
+    L = len(Slack_id)
     for i in range(L):
         if Slack_id[i] != Twitter_id[i]:
             distance += 1
