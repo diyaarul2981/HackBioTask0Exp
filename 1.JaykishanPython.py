@@ -1,4 +1,3 @@
-print("\n")
 Slack_id = "@Jay"
 Twitter_id = "@Jaykishansolan9"
 def hamming_distance(Slack_id, Twitter_id):
