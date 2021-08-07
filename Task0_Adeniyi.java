@@ -9,6 +9,6 @@ public class Program
             if(slack.charAt(x)!=twitter.charAt(x))
             count++;
         }
-        System.out.println( "Oluwabunmi Adeniyi, oluwabunmipra@gmail.com, @Oluwabunmi, Public Health and Genomic Epidemiology, FirstLady1, "+count);
+        System.out.println( "Oluwabunmi Adeniyi, oluwabunmipra@gmail.com, @Oluwabunmi, Public Health and Genomic Epidemiology, @FirstLady1, "+count);
     }
 }
