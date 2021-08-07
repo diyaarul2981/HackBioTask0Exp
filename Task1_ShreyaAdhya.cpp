@@ -13,7 +13,7 @@ class hackbio // declaring class hackbio
 //function to display the items
 void hackbio :: display (void)
 {
-    cout<<"Shreya Adhya, adhyatiti@gmail.com, @ShreyaAdhya, @ShreyaAdhya, Data Science, Epigenomics"<<endl;
+    cout<<"Shreya Adhya, adhyatiti@gmail.com, @ShreyaAdhya, Data Science and Epigenomics, @ShreyaAdhya, "<<endl;
 }
 
  
