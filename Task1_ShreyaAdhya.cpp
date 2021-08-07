@@ -34,7 +34,7 @@ int main()  //main class
     char str2[] = "@ShreyaAdhya"; //carries the Twitter username 
  
     
-	cout<<"Shreya Adhya, adhyatiti@gmail.com, @ShreyaAdhya, Data Science and Epigenomics, @ShreyaAdhya, " +hammingDist (str1, str2)<<endl;
+	cout<<"Shreya Adhya, adhyatiti@gmail.com, @ShreyaAdhya, Data Science and Epigenomics, @ShreyaAdhya, " , hammingDist (str1, str2)<<endl;
    
     return 0;
 }
